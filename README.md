@@ -17,3 +17,7 @@ Finally the dataset is converted to a long dataset, by subject and activity type
 
 A final dataset with the averages for each measurement variable by subject and activity type is created.
 
+
+Load final dataset with:
+
+data <- read.csv("Subj_Activity_avg.csv")
