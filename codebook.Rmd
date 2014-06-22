@@ -1,0 +1,198 @@
+---
+title: Project 1 Codebook
+output: html_document
+---
+
+* Subject
+    + Subject Number (1 - 30)
+
+* Activity
+    + Activity Type
+    1. Walking
+    1. Walking Upstairs
+    1. Walking Downstairs
+    1. Sitting
+    1. Standing
+    1. Laying
+
+* Time_Body_Acceleration-mean()-X
+    + Averages for: time domain signal: Body Acceleration Mean - X axis
+  
+* Time_Body_Acceleration-mean()-Y
+    + Averages for: time domain signal: Body Acceleration Mean - Y axis
+  
+* Time_Body_Acceleration-mean()-Z
+    + Averages for: time domain signal: Body Acceleration Mean - Z axis
+  
+* Time_Body_Acceleration-std()-X
+    + Averages for: time domain signal: Body Acceleration Standard Deviation - X axis
+  
+* Time_Body_Acceleration-std()-Y
+    + Averages for: time domain signal: Body Acceleration Standard Deviation - Y axis
+  
+* Time_Body_Acceleration-std()-Z
+    + Averages for: time domain signal: Body Acceleration Standard Deviation - Z axis
+  
+* Time_Gravity_Acceleration-mean()-X
+    + Averages for: time domain signal: Gravity Acceleration; mean; X Axis
+  
+* Time_Gravity_Acceleration-mean()-Y
+    + Averages for: time domain signal: Gravity Acceleration; mean; Y Axis
+  
+* Time_Gravity_Acceleration-mean()-Z
+    + Averages for: time domain signal: Gravity Acceleration; mean; Z Axis
+
+* Time_Gravity_Acceleration-std()-X
+    + Averages for: time domain signal: Gravity Acceleration; std; X Axis 
+  
+* Time_Gravity_Acceleration-std()-Y
+    + Averages for: time domain signal: Gravity Acceleration; std; Y Axis 
+  
+* Time_Gravity_Acceleration-std()-Z
+    + Averages for: time domain signal: Gravity Acceleration; std; Z Axis 
+  
+* Time_Body_Acceleration_Jerk-mean()-X
+    + Averages for: time domain signal: Body Acceleration Jerk; mean; X Axis 
+  
+* Time_Body_Acceleration_Jerk-mean()-Y
+    + Averages for: time domain signal: Body Acceleration Jerk; mean; Y Axis 
+  
+* Time_Body_Acceleration_Jerk-mean()-Z
+    + Averages for: time domain signal: Body Acceleration Jerk; mean; Z Axis
+  
+* Time_Body_Acceleration_Jerk-std()-X
+    + Averages for: time domain signal: Body Acceleration Jerk; std; X Axis
+  
+* Time_Body_Acceleration_Jerk-std()-Y
+    + Averages for: time domain signal: Body Acceleration Jerk; std; Y Axis
+  
+* Time_Body_Acceleration_Jerk-std()-Z
+    + Averages for: time domain signal: Body Acceleration Jerk; std; Z Axis
+
+* Time_Body_Gyro-mean()-X
+    + Averages for: time domain signal: Gyroscope; mean; X Axis
+  
+* Time_Body_Gyro-mean()-Y
+    + Averages for: time domain signal: Gyroscope; mean; Y Axis
+  
+* Time_Body_Gyro-mean()-Z
+    + Averages for: time domain signal: Gyroscope; mean; Z Axis
+  
+* Time_Body_Gyro-std()-X
+    + Averages for: time domain signal: Gyroscope; std; X Axis
+  
+* Time_Body_Gyro-std()-Y
+    + Averages for: time domain signal: Gyroscope; std; Y Axis
+  
+* Time_Body_Gyro-std()-Z
+    + Averages for: time domain signal: Gyroscope; std; Z Axis
+
+* Time_Body_Gyro_Jerk-mean()-X
+    + Averages for: time domain signal: Gyroscope Jerk; mean; X Axis
+
+* Time_Body_Gyro_Jerk-mean()-Y
+    + Averages for: time domain signal: Gyroscope Jerk; mean; Y Axis
+  
+* Time_Body_Gyro_Jerk-mean()-Z
+    + Averages for: time domain signal: Gyroscope Jerk; mean; Z Axis
+  
+* Time_Body_Gyro_Jerk-std()-X
+    + Averages for: time domain signal: Gyroscope Jerk; std; X Axis
+  
+* Time_Body_Gyro_Jerk-std()-Y
+    + Averages for: time domain signal: Gyroscope Jerk; std; Y Axis
+  
+* Time_Body_Gyro_Jerk-std()-Z
+    + Averages for: time domain signal: Gyroscope Jerk; std; Z Axis
+
+* Time_Body_Acceleration_Magnitude-mean()
+    + Averages for: time domain signal: Mean Body Acceleration Magnitude
+  
+* Time_Body_Acceleration_Magnitude-std()
+    + Averages for: time domain signal: Std of Body Acceleration Maginitude
+  
+* Time_Gravity_Acceleration_Magnitude-mean()
+    + Averages for: time domain signal: Mean Gravity Acceleration Magnitude
+  
+* Time_Gravity_Acceleration_Magnitude-std()
+    + Averages for: time domain signal: Std of Gravity Acceleration Maginitude
+  
+* Time_Body_Acceleration_Jerk_Magnitude-mean()
+    + Averages for: time domain signal: Mean Body Acceleration Jerk Magnitude
+  
+* Time_Body_Acceleration_Jerk_Magnitude-std()
+    + Averages for: time domain signal: Std of Body Acceleration Jerk Maginitude
+
+* Time_Body_Gyro_Magnitude-mean()
+    + Averages for: time domain signal: Mean Body Gyroscope Magnitude
+  
+* Time_Body_Gyro_Magnitude-std()
+    + Averages for: time domain signal: Std of Body Gyroscope Magnitude
+  
+* Time_Body_Gyro_Jerk_Magnitude-mean()
+    + Averages for: time domain signal: Mean Body Gyroscope Jerk Magnitude
+  
+* Time_Body_Gyro_Jerk_Magnitude-std()
+    + Averages for: time domain signal: Std of Body Gyroscope Jerk Magnitude
+
+* FourierTrans_Body_Acceleration-mean()-X
+    + Averages for: Fast Fourier Transform: Body Acceleration; mean; X - Axis
+  
+* FourierTrans_Body_Acceleration-mean()-Y
+    + Averages for: Fast Fourier Transform: Body Acceleration; mean; Y - Axis
+* FourierTrans_Body_Acceleration-mean()-Z
+    + Averages for: Fast Fourier Transform: Body Acceleration; mean; Z - Axis
+* FourierTrans_Body_Acceleration-std()-X
+    + Averages for: Fast Fourier Transform: Body Acceleration; std; X - Axis
+* FourierTrans_Body_Acceleration-std()-Y
+    + Averages for: Fast Fourier Transform: Body Acceleration; std; Y - Axis
+* FourierTrans_Body_Acceleration-std()-Z
+    + Averages for: Fast Fourier Transform: Body Acceleration; std; Z - Axis
+
+* FourierTrans_Body_Acceleration_Jerk-mean()-X
+    + Averages for: Fast Fourier Transform: Body Acceleration Jerk; mean; X - Axis
+* FourierTrans_Body_Acceleration_Jerk-mean()-Y
+    + Averages for: Fast Fourier Transform: Body Acceleration Jerk; mean; Y - Axis
+* FourierTrans_Body_Acceleration_Jerk-mean()-Z
+    + Averages for: Fast Fourier Transform: Body Acceleration Jerk; mean; Z - Axis
+* FourierTrans_Body_Acceleration_Jerk-std()-X
+    + Averages for: Fast Fourier Transform: Body Acceleration Jerk; std; X - Axis
+* FourierTrans_Body_Acceleration_Jerk-std()-Y
+    + Averages for: Fast Fourier Transform: Body Acceleration Jerk; std; Y - Axis
+* FourierTrans_Body_Acceleration_Jerk-std()-Z
+    + Averages for: Fast Fourier Transform: Body Acceleration Jerk; std; Z - Axis
+
+* FourierTrans_Body_Gyro-mean()-X
+    + Averages for: Fast Fourier Transform: Body Gyro; mean; X - Axis
+* FourierTrans_Body_Gyro-mean()-Y
+    + Averages for: Fast Fourier Transform: Body Gyro; mean; Y - Axis
+* FourierTrans_Body_Gyro-mean()-Z
+    + Averages for: Fast Fourier Transform: Body Gyro; mean; Z - Axis
+* FourierTrans_Body_Gyro-std()-X
+    + Averages for: Fast Fourier Transform: Body Gyro; std; X - Axis
+* FourierTrans_Body_Gyro-std()-Y
+    + Averages for: Fast Fourier Transform: Body Gyro; std; Y - Axis
+* FourierTrans_Body_Gyro-std()-Z
+    + Averages for: Fast Fourier Transform: Body Gyro; std; Z - Axis
+
+* FourierTrans_Body_Acceleration_Magnitude-mean()
+    + Averages for: Fast Fourier Transform: Body Acceleration Magnitude; mean
+* FourierTrans_Body_Acceleration_Magnitude-std()
+    + Averages for: Fast Fourier Transform: Body Acceleration Magnitude; std
+* FourierTrans_Body_Acceleration_Jerk_Magnitude-mean()
+    + Averages for: Fast Fourier Transform: Body Acceleration Jerk Magnitude; mean
+* FourierTrans_Body_Acceleration_Jerk_Magnitude-std()
+    + Averages for: Fast Fourier Transform: Body Acceleration Jerk Magnitude; std
+
+* FourierTrans_Body_Gyro_Magnitude-mean()
+    + Averages for: Fast Fourier Transform: Body Gyro Magnitude; mean
+* FourierTrans_Body_Gyro_Magnitude-std()
+    + Averages for: Fast Fourier Transform: Body Gyro Magnitude; std
+
+* FourierTrans_Body_Gyro_Jerk_Magnitude-mean()
+    + Averages for: Fast Fourier Transform: Body Gyro Jerk Magnitude; mean
+* FourierTrans_Body_Gyro_Jerk_Magnitude-std()
+    + Averages for: Fast Fourier Transform: Body Gyro Jerk Magnitude; std
+
+
+
